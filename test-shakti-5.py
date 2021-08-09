@@ -1033,7 +1033,7 @@ def pk_test_4():
 def pk_test_5():
     TIMED_DELAY_SECONDS = 60
     # MAX_TEST_SECONDS = 5 * 24 * 60 * 60
-    MAX_TEST_SECONDS = 60 * 5
+    MAX_TEST_SECONDS = 60 * 60 * 24
     MINIMUM_ACCOUNT_VALUE = 1_00_000  # in toshi
     BALANCE_CHECK_ROUNDS = 5
 

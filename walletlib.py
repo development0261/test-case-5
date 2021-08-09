@@ -66,7 +66,8 @@ VERSION="0.75 Beta"
 # directory that's on the DYLD_FALLBACK_LIBRARY_PATH or DYLD_LIBRARY_PATH.
 #
 # Notes for other OSes will be added as they're determined.
-_libpath = ctypes.util.find_library('D:\\Logix\\ShaktiCoin\\scale\\walletlib.dll')
+# _libpath = ctypes.util.find_library('D:\\Logix\\ShaktiCoin\\scale\\walletlib.dll')
+_libpath = ctypes.util.find_library('\\walletlib.dll')
 if _libpath is None:
     # Get the directory of this file. We'll look there for the file, under all
     # OSes, as well as in the OS-specific place(s).
