@@ -67,7 +67,8 @@ VERSION="0.75 Beta"
 #
 # Notes for other OSes will be added as they're determined.
 # _libpath = ctypes.util.find_library('D:\\Logix\\ShaktiCoin\\scale\\walletlib.dll')
-_libpath = ctypes.util.find_library('\\walletlib.dll')
+_libpath = ctypes.util.find_library('\\libwalletlib.so')
+# _libpath = ctypes.util.find_library('\\walletlib.dll')
 if _libpath is None:
     # Get the directory of this file. We'll look there for the file, under all
     # OSes, as well as in the OS-specific place(s).
